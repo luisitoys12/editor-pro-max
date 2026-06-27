@@ -1,7 +1,7 @@
 {
-  "name": "editor-pro-max",
+  "name": "editor-pro-max-openclaw",
   "version": "1.0.0",
-  "description": "AI-powered video editor by @soyenriquerocha — built with Remotion and Claude Code",
+  "description": "Editor Pro Max OpenClaw — AI-powered video editor adapted for OpenClaw + OpenCode CLI, built with Remotion + React 19 + Whisper AI",
   "scripts": {
     "dev": "remotion studio --browser=chrome",
     "build": "remotion bundle",
@@ -10,7 +10,10 @@
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisitoys12/editor-pro-max"
+  },
   "license": "MIT",
   "dependencies": {
     "@imgly/background-removal-node": "^1.4.5",
